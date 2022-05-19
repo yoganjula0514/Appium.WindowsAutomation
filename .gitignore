@@ -1,8 +1,21 @@
-﻿################################################################################
-# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
-################################################################################
+﻿# Generated files/directories
+Bin/
+obj/
+Release/
+Debug/
+Externals
+ProductAssemblyInfo.cs
 
-/DesktopApplicationAutomation/SampleApplication/bin/Debug/netcoreapp2.1
-/.vs
-/DesktopApplicationAutomation/.vs/DesktopApplicationAutomation/v15
-/DesktopApplicationAutomation/SampleApplication/obj
+# Editor temp files
+*.VC.db
+*.VC.opendb
+*.vs
+*.boltdata
+*.cov
+*.opensdf
+*.sdf
+*.aps
+*.ncb
+*.user
+*.suo
+*.orig
