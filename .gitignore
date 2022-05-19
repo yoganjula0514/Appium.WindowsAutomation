@@ -3,3 +3,6 @@
 ################################################################################
 
 /DesktopApplicationAutomation/SampleApplication/bin/Debug/netcoreapp2.1
+/.vs
+/DesktopApplicationAutomation/.vs/DesktopApplicationAutomation/v15
+/DesktopApplicationAutomation/SampleApplication/obj
