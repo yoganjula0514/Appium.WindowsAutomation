@@ -3,7 +3,8 @@ Bin/
 obj/
 Release/
 Debug/
-Externals
+Externals/
+packages
 ProductAssemblyInfo.cs
 
 # Editor temp files
