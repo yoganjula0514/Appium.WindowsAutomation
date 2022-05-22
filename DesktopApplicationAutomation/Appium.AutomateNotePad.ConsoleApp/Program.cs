@@ -1,8 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using OpenQA.Selenium.Appium;
+using OpenQA.Selenium.Appium.Windows;
+using System;
 
 namespace Appium.AutomateNotePad.ConsoleApp
 {
@@ -10,6 +8,10 @@ namespace Appium.AutomateNotePad.ConsoleApp
     {
         static void Main(string[] args)
         {
+            AppiumOptions appiumOptions = new AppiumOptions();
+            appiumOptions.AddAdditionalCapability("app", @"C:\Windows\System32\notepad.exe");
+            WindowsDriver<WindowsElement> notePadSession = new WindowsDriver<WindowsElement>(new Uri("http://127.0.0.1:4723"), appiumOptions);
+            notePadSession.Quit();
         }
     }
 }
