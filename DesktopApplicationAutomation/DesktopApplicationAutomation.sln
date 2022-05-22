@@ -5,6 +5,8 @@ VisualStudioVersion = 17.0.32014.148
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Appium.AutomateNotePad.ConsoleApp", "Appium.AutomateNotePad.ConsoleApp\Appium.AutomateNotePad.ConsoleApp.csproj", "{FA0ED423-AFAB-4F3F-A77E-29FC4AC72F1C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppiumServiceBuilder.AutomationNotePad.ConsoleApp", "AppiumServiceBuilder.AutomationNotePad.ConsoleApp\AppiumServiceBuilder.AutomationNotePad.ConsoleApp.csproj", "{865EFC70-D488-46F9-AFBE-E044D8651F14}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,14 @@ Global
 		{FA0ED423-AFAB-4F3F-A77E-29FC4AC72F1C}.Release|Any CPU.Build.0 = Release|Any CPU
 		{FA0ED423-AFAB-4F3F-A77E-29FC4AC72F1C}.Release|x64.ActiveCfg = Release|x64
 		{FA0ED423-AFAB-4F3F-A77E-29FC4AC72F1C}.Release|x64.Build.0 = Release|x64
+		{865EFC70-D488-46F9-AFBE-E044D8651F14}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{865EFC70-D488-46F9-AFBE-E044D8651F14}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{865EFC70-D488-46F9-AFBE-E044D8651F14}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{865EFC70-D488-46F9-AFBE-E044D8651F14}.Debug|x64.Build.0 = Debug|Any CPU
+		{865EFC70-D488-46F9-AFBE-E044D8651F14}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{865EFC70-D488-46F9-AFBE-E044D8651F14}.Release|Any CPU.Build.0 = Release|Any CPU
+		{865EFC70-D488-46F9-AFBE-E044D8651F14}.Release|x64.ActiveCfg = Release|Any CPU
+		{865EFC70-D488-46F9-AFBE-E044D8651F14}.Release|x64.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
