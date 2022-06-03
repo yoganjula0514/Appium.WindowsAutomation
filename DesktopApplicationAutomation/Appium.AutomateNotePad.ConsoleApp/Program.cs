@@ -25,7 +25,7 @@ namespace Appium.AutomateNotePad.ConsoleApp
             wpfAppSession.Manage().Window.Maximize();
             
             EnterDescriptionContent(wpfAppSession);
-            ClickApplyButton(wpfAppSession);
+            //ClickApplyButton(wpfAppSession);
 
             Thread.Sleep(3000);
 
