@@ -19,6 +19,8 @@ namespace Appium.AutomateNotePad.ConsoleApp
             
             WindowsDriver<WindowsElement> wpfAppSession = new WindowsDriver<WindowsElement>(new Uri("http://127.0.0.1:4723"), appiumOptions);
 
+            SetImplicitWaitTime(wpfAppSession, 5);
+
             Console.WriteLine($"Application title : {wpfAppSession.Title}");
             wpfAppSession.Manage().Window.Maximize();
             
@@ -50,6 +52,11 @@ namespace Appium.AutomateNotePad.ConsoleApp
         {
             var screenShot = wpfAppSession.GetScreenshot();
             screenShot.SaveAsFile(Path.Combine(Environment.CurrentDirectory, $"Screenshot_{DateTime.Now:ddMMyyyyhhmmss}.png"), OpenQA.Selenium.ScreenshotImageFormat.Png);
+        }
+
+        private static void SetImplicitWaitTime(WindowsDriver<WindowsElement> wpfAppSession, double seconds)
+        {
+            wpfAppSession.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(seconds);
         }
     }
 }
