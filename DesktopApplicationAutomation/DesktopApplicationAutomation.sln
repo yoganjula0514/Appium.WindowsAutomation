@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28307.136
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32526.322
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Appium.AutomateNotePad.ConsoleApp", "Appium.AutomateNotePad.ConsoleApp\Appium.AutomateNotePad.ConsoleApp.csproj", "{FA0ED423-AFAB-4F3F-A77E-29FC4AC72F1C}"
 EndProject
@@ -14,6 +14,12 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Practice", "Practice", "{1AE0F7D8-75E2-4E18-AEB4-94B35850BC59}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutomateMoviesAndTVWindowApp", "AutomateMoviesAndTVWindowApp\AutomateMoviesAndTVWindowApp.csproj", "{45C3ED8B-F3B3-4012-BC44-6BD67A1514F6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HospitalManagement", "Src\HospitalManagement\HospitalManagement.csproj", "{5CAE7A0E-ECDA-4F86-9F80-4F8A6DDE303C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{C9F8477E-D3F2-49FF-96BF-AA388D583038}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LicenseManagerAutomation", "LicenseManagerAutomation\LicenseManagerAutomation.csproj", "{99B3A23B-0FB9-4FC6-843C-0F0A1BB6435D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -55,6 +61,22 @@ Global
 		{45C3ED8B-F3B3-4012-BC44-6BD67A1514F6}.Release|Any CPU.Build.0 = Release|Any CPU
 		{45C3ED8B-F3B3-4012-BC44-6BD67A1514F6}.Release|x64.ActiveCfg = Release|Any CPU
 		{45C3ED8B-F3B3-4012-BC44-6BD67A1514F6}.Release|x64.Build.0 = Release|Any CPU
+		{5CAE7A0E-ECDA-4F86-9F80-4F8A6DDE303C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5CAE7A0E-ECDA-4F86-9F80-4F8A6DDE303C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5CAE7A0E-ECDA-4F86-9F80-4F8A6DDE303C}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{5CAE7A0E-ECDA-4F86-9F80-4F8A6DDE303C}.Debug|x64.Build.0 = Debug|Any CPU
+		{5CAE7A0E-ECDA-4F86-9F80-4F8A6DDE303C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5CAE7A0E-ECDA-4F86-9F80-4F8A6DDE303C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5CAE7A0E-ECDA-4F86-9F80-4F8A6DDE303C}.Release|x64.ActiveCfg = Release|Any CPU
+		{5CAE7A0E-ECDA-4F86-9F80-4F8A6DDE303C}.Release|x64.Build.0 = Release|Any CPU
+		{99B3A23B-0FB9-4FC6-843C-0F0A1BB6435D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99B3A23B-0FB9-4FC6-843C-0F0A1BB6435D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99B3A23B-0FB9-4FC6-843C-0F0A1BB6435D}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{99B3A23B-0FB9-4FC6-843C-0F0A1BB6435D}.Debug|x64.Build.0 = Debug|Any CPU
+		{99B3A23B-0FB9-4FC6-843C-0F0A1BB6435D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99B3A23B-0FB9-4FC6-843C-0F0A1BB6435D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99B3A23B-0FB9-4FC6-843C-0F0A1BB6435D}.Release|x64.ActiveCfg = Release|Any CPU
+		{99B3A23B-0FB9-4FC6-843C-0F0A1BB6435D}.Release|x64.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -62,6 +84,8 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{2D5E0E38-B7AC-4C2E-B381-F93E18C39D6A} = {89460545-7EE1-4140-AB0E-AAB699C0BAE1}
 		{45C3ED8B-F3B3-4012-BC44-6BD67A1514F6} = {1AE0F7D8-75E2-4E18-AEB4-94B35850BC59}
+		{5CAE7A0E-ECDA-4F86-9F80-4F8A6DDE303C} = {89460545-7EE1-4140-AB0E-AAB699C0BAE1}
+		{99B3A23B-0FB9-4FC6-843C-0F0A1BB6435D} = {C9F8477E-D3F2-49FF-96BF-AA388D583038}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {8668A573-4F05-4AAD-96AB-CAD060C9B4F9}

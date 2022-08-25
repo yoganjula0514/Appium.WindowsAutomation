@@ -15,8 +15,9 @@ namespace Appium.AutomateNotePad.ConsoleApp
             var currentDirectory = Directory.GetCurrentDirectory();
             
             AppiumOptions appiumOptions = new AppiumOptions();
-            appiumOptions.AddAdditionalCapability("app", Path.Combine(currentDirectory, @"WPFApp.exe"));
-            
+            appiumOptions.AddAdditionalCapability("app", Path.Combine(currentDirectory, @"HospitalManagement.exe"));
+            appiumOptions.AddAdditionalCapability("appArguments", "enableautomation");
+
             WindowsDriver<WindowsElement> wpfAppSession = new WindowsDriver<WindowsElement>(new Uri("http://127.0.0.1:4723"), appiumOptions);
 
             SetImplicitWaitTime(wpfAppSession, 5);
